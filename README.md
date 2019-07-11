@@ -9,3 +9,4 @@ Notes:
 
 - Everytime a component changes its properties or the state, the render method is called
 - The setState method is asynchronous. If you wanna run synchronously you can pass a callback function as the second parameter or you can pass a function to the setState instead of the object containing the property you wanna override in the state to garantee that you will be always reading the last value of the state
+- componentDidMount is called once in a lifecycle. componentDidUpdate is called everytime after the render method has been executed
